@@ -847,7 +847,7 @@ max-width: 320px;
     margin-right: 120px;
 }
 
-.container-footer-social {
+.footer .container {
     display: flex;
         align-items: baseline;
         flex-direction: column;
@@ -1029,13 +1029,11 @@ max-width: 320px;
 
 @media screen and (min-width: 768px) {
 
-.container {
-flex-direction: row;
-gap: 72px 24px;
-flex-wrap: wrap;
-   
+.footer .container {
+    display: flex;
+    align-items: baseline
+}
 
-} 
 
 .footer-content-container{
     margin-right: 0;
