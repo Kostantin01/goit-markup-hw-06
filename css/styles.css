@@ -1196,13 +1196,21 @@ max-width: 320px;
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        align-items: baseline;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding: 0 15px;
-        margin: 0 auto;
-        gap: 0
+   .footer .container {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 15px;
+    margin: 0 auto;
+    gap: 0;
+    }
+
+    .footer-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 120px;
     }
 
     .footer-logo{
