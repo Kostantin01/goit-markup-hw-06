@@ -780,8 +780,9 @@ max-width: 320px;
 
 
 @media screen and (min-width: 768px) {
+
 .team .team-content {
-   
+   max-width: 568px;
 }
 
 .team-member{
@@ -1150,7 +1151,7 @@ max-width: 320px;
     flex-direction: row;
     gap: 72px 24px;
     flex-wrap: wrap;
-     max-width: 564px;
+    max-width: 564px;
 }
 
 
@@ -1196,6 +1197,7 @@ max-width: 320px;
 }
 
 @media screen and (min-width: 1158px) {
+
    .footer .container {
     display: flex;
     align-items: baseline;
@@ -1204,6 +1206,7 @@ max-width: 320px;
     padding: 0 15px;
     margin: 0 auto;
     gap: 0;
+    max-width: 1158px;
     }
 
     .footer-content-container {
