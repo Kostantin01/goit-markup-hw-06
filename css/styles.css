@@ -21,7 +21,7 @@ h1,h2,h3,h4,p,ul{
 
 img{
     display: block;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -570,7 +570,6 @@ max-width: 320px;
     text-align: center;
     color: #2E2F42;
     margin-bottom: 8px;
-    
 }
 
 .list-paragraph {
@@ -581,7 +580,6 @@ max-width: 320px;
     line-height: 24px;
     letter-spacing: 0.02em;
     font-size: 16px;
-    padding-left: 16px;
     width: 100%;
 }
 
@@ -700,7 +698,6 @@ max-width: 320px;
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-left: 28px;
 }
 
 .social-media-list {
@@ -782,7 +779,7 @@ max-width: 320px;
 @media screen and (min-width: 768px) {
 
 .team .team-content {
-   max-width: 568px;
+   max-width: 584px;
 }
 
 .team-member{
